@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { page } from '$app/stores';
+
   const MAX_WIDTH = 1024;
   const MAX_HEIGHT = 768;
   const WIDTHS = [720, 1024, 1080, 1440];
@@ -17,7 +19,7 @@
     title?: string;
   } = $props();
 
-  let src: string = $derived(`https://ik.imagekit.io/sakalou/rides/lake-bike-ride/${file}`);
+  const src: string = `https://ik.imagekit.io/sakalou${$page.url.pathname}/${file}`;
   let minWidth: number = $derived.by(() => {
     const calculatedWidth = Math.ceil((ratio[0] * MAX_HEIGHT) / ratio[1]);
 
@@ -30,14 +32,20 @@
   });
 </script>
 
-<figure class="flex flex-col gap-2 align-middle">
+<figure class="flex flex-col items-center gap-2">
   <img
     loading="lazy"
     {src}
     {srcset}
     {alt}
     sizes="(min-width: {minWidth}px) {minWidth}px, 100vw"
-    class="not-prose aspect-[{ratio[0]}/{ratio[1]}] max-h-[min(100svh,{MAX_HEIGHT}px)] max-w-[{MAX_WIDTH}px] object-contain"
+    style="aspect-ratio: {ratio[0]}/{ratio[1]}"
+    class="
+      not-prose
+      max-h-[min(100svh,var(--container-3xl))]
+      max-w-(--container-5xl)
+      object-contain
+    "
   />
 
   {#if title}

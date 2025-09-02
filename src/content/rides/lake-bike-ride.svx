@@ -1,0 +1,11 @@
+---
+title: Озерная
+date: 2025-08-29
+description: Отчет о велопоездке из Скиделя в Гродно через леса и озера
+---
+
+<script>
+  import Image from '$lib/components/content/Image.svelte';
+</script>
+
+<Image file="skidel-station.webp" alt="Вокзал в Скиделе" ratio={[4,3]} title="Вокзал в Скиделе" />

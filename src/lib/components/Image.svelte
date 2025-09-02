@@ -12,14 +12,14 @@
     loading={lazy && 'lazy'}
     {src}
     {alt}
-    class={[
-      'mx-auto',
-      'max-h-[min(100svh,_var(--container-3xl))]',
-      'w-full',
-      'max-w-5xl',
-      'object-contain',
-      'block'
-    ]}
+    class="
+      mx-auto
+      block
+      max-h-[min(100svh,var(--container-3xl))]
+      w-full
+      max-w-5xl
+      object-contain
+    "
   />
 
   {#if title}
