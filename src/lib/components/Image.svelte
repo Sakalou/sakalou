@@ -3,14 +3,26 @@
     lazy = true,
     alt = '',
     src,
-    figcaption
-  }: { lazy: boolean; alt: string; src: string; figcaption?: string } = $props();
+    title
+  }: { lazy: boolean; alt: string; src: string; title?: string } = $props();
 </script>
 
 <figure>
-  <img loading={lazy && 'lazy'} {src} {alt} />
+  <img
+    loading={lazy && 'lazy'}
+    {src}
+    {alt}
+    class={[
+      'mx-auto',
+      'max-h-[min(100svh,_var(--container-3xl))]',
+      'w-full',
+      'max-w-5xl',
+      'object-contain',
+      'block'
+    ]}
+  />
 
-  {#if figcaption}
-    <figcaption class="text-center text-black/50">{figcaption}</figcaption>
+  {#if title}
+    <figcaption class="text-center text-black/50">{title}</figcaption>
   {/if}
 </figure>

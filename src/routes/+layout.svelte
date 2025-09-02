@@ -4,4 +4,10 @@
   let { children } = $props();
 </script>
 
-{@render children()}
+<header class="grid grid-cols-(--grid-cols-layout) py-4">
+  <div class="col-2">Сакалоў</div>
+</header>
+
+<main>
+  {@render children()}
+</main>

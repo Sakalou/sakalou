@@ -10,7 +10,7 @@
 // const slugFromPath = (path: string) => path.match(/([\w-]+)\.(svx)/i)?.[1] ?? null;
 
 export const entries = async () => {
-  const slugs = Object.keys(await import.meta.glob('$content/*.{svx}')).map((path) =>
+  const slugs = Object.keys(await import.meta.glob('$content/rides/*.{svx}')).map((path) =>
     path
       .split('/')
       .pop()
@@ -24,7 +24,7 @@ export const entries = async () => {
 
 export const load = async ({ params }) => {
   try {
-    const post = await import(`$content/${params.slug}.svx`);
+    const post = await import(`$content/rides/${params.slug}.svx`);
 
     return {
       component: post.default,
