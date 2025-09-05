@@ -46,6 +46,7 @@
       max-w-(--container-5xl)
       object-contain
     "
+    data-latlng={latlng}
   />
 
   {#if title}

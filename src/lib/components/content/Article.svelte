@@ -29,6 +29,11 @@
     lg:prose-h1:text-4xl
     prose-p:mx-auto
     prose-p:max-w-3xl
+    prose-a:text-sky-600
+    prose-a:underline
+    prose-a:underline-offset-4
+    prose-a:visited:text-violet-800
+    prose-a:hover:no-underline
     prose-figure:-mx-4
     prose-ol:mx-auto
     prose-ol:max-w-3xl
@@ -38,7 +43,7 @@
 >
   <h1>{title}</h1>
 
-  <time datetime={date} class="mx-auto block max-w-3xl">{postDate}</time>
+  <time datetime={date} class="mx-auto block max-w-3xl text-base text-black/50">{postDate}</time>
 
   {@render article()}
 </article>
