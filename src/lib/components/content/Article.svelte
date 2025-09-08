@@ -23,7 +23,7 @@
     lg:prose-lg
     prose-h1:mx-auto
     prose-h1:max-w-3xl
-    prose-h1:font-(family-name:--font-ibm-plex-serif)
+    prose-h1:font-ibm-plex-serif
     prose-h1:text-2xl
     prose-h1:font-medium
     lg:prose-h1:text-4xl
