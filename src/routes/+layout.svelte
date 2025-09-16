@@ -9,7 +9,7 @@
     <svg class="h-12 w-12">
       <use href="/sprite.svg#hat" />
     </svg>
-    <span class="tracking-wider">sakalou.by</span>
+    <span class="tracking-wider">sakalou</span>
   </a>
 </header>
 
