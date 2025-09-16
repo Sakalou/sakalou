@@ -1,7 +1,8 @@
 ---
 title: Полесский зной
 date: 2025-08-16
-description: Велопоездка по Брестскому Полесью
+description: Отчет о велопоездке по Брестскому Полесью
+image: sunrise.webp
 ---
 
 <script>

@@ -4,6 +4,10 @@
   const { posts } = data;
 </script>
 
+<svelte:head>
+  <title>Велоотчеты | Сакалоў</title>
+</svelte:head>
+
 <section class="px-4">
   <h1
     class="

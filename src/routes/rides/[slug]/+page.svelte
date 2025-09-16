@@ -8,7 +8,7 @@
 </script>
 
 <svelte:head>
-  <title>{data.metadata.title}</title>
+  <title>{data.metadata.title} | Велоотчеты | Сакалоў</title>
 
   <meta property="og:title" content={data.metadata.description} />
   {#if data.metadata.image}
