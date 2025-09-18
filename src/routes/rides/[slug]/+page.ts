@@ -1,34 +1,13 @@
-// import type { EntryGenerator } from './$types';
-
-// import { error } from '@sveltejs/kit';
-
-// interface MdsvexFile {
-// 	default: import('svelte/internal').SvelteComponent;
-// 	metadata: Record<string, string>;
-// }
-
-// const slugFromPath = (path: string) => path.match(/([\w-]+)\.(svx)/i)?.[1] ?? null;
-
-export const entries = async () => {
-  const slugs = Object.keys(await import.meta.glob('$content/rides/*.{svx}')).map((path: string) =>
-    path
-      .split('/')
-      .pop()
-      .replace(/\.(svx)$/, '')
-  );
-
-  return slugs.map((slug) => ({
-    slug
-  }));
-};
+import { content } from '$lib/store/content.svelte.js';
 
 export const load = async ({ params }) => {
   try {
     const post = await import(`$content/rides/${params.slug}.svx`);
+    const ride = content.rides.find(({ slug }) => slug === params.slug);
 
     return {
       component: post.default,
-      metadata: post.metadata
+      ride
     };
   } catch {
     return {

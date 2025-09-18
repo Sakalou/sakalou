@@ -1,26 +1,25 @@
 <script lang="ts">
   import Article from '$lib/components/content/Article.svelte';
-  import { page } from '$app/stores';
 
-  export let data;
-
-  const { component, metadata } = data;
+  const { data } = $props();
+  const { component, ride } = data;
 </script>
 
 <svelte:head>
-  <title>{data.metadata.title} | Велоотчеты | Сакалоў</title>
+  <title>{ride.title} | Велоотчеты | Сакалоў</title>
 
-  <meta property="og:title" content={data.metadata.description} />
-  {#if data.metadata.image}
+  {#if ride.description}
+    <meta property="og:title" content={ride.description} />
+  {/if}
+  {#if ride.image}
     <meta
       property="og:image"
-      content="https://ik.imagekit.io/sakalou{$page.url.pathname}/{data.metadata
-        .image}?tr=w-1200,f-webp,q-70"
+      content="https://ik.imagekit.io/sakalou{ride.category}/{ride.image}?tr=w-1200,f-webp,q-70"
     />
   {/if}
-  <meta property="og:url" content="https://sakalou.by{$page.url.pathname}" />
+  <meta property="og:url" content="https://sakalou.by{ride.category}" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
 </svelte:head>
 
-<Article article={component} title={data.metadata.title} date={metadata.date} />
+<Article article={component} title={ride.title} date={ride.date} />

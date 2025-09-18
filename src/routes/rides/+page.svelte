@@ -1,7 +1,5 @@
 <script lang="ts">
-  export let data;
-
-  const { posts } = data;
+  import { content } from '$lib/store/content.svelte.js';
 </script>
 
 <svelte:head>
@@ -23,7 +21,7 @@
   </h1>
 
   <ul class="mx-auto grid max-w-3xl list-disc gap-2 pl-6">
-    {#each posts as { slug, title } (slug)}
+    {#each content.rides as { slug, title } (slug)}
       <li>
         <a
           href="rides/{slug}"
