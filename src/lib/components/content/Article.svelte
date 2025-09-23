@@ -39,6 +39,7 @@
     prose-ol:max-w-3xl
     prose-ul:mx-auto
     prose-ul:max-w-3xl
+    prose-ul:list-disc
   "
 >
   <h1>{title}</h1>
