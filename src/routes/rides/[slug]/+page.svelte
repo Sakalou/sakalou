@@ -12,11 +12,11 @@
     <meta property="og:title" content={ride.description} />
   {/if}
   {#if ride.category}
-    <meta property="og:url" content="https://sakalou.by{ride.category}" />
+    <meta property="og:url" content="https://sakalou.by/{ride.category}" />
     {#if ride.image}
       <meta
         property="og:image"
-        content="https://ik.imagekit.io/sakalou{ride.category}/{ride.image}?tr=w-1200,f-webp,q-70"
+        content="https://ik.imagekit.io/sakalou/{ride.category}/{ride.image}?tr=w-1200,f-webp,q-70"
       />
     {/if}
   {/if}
