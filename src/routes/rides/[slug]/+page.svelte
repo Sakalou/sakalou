@@ -16,7 +16,7 @@
     {#if ride.image}
       <meta
         property="og:image"
-        content="https://ik.imagekit.io/sakalou/{ride.category}/{ride.image}?tr=w-1200,f-webp,q-70"
+        content="https://ik.imagekit.io/sakalou/{ride.category}/{ride.slug}/{ride.image}?tr=w-1200,f-webp,q-70"
       />
     {/if}
   {/if}
