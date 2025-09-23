@@ -15,6 +15,7 @@ export const load = async () => {
       title: metadata?.title ?? '',
       date: metadata?.date || new Date().toISOString(),
       image: metadata?.image,
+      description: metadata?.description,
       category: Category.RIDES
     }))
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
