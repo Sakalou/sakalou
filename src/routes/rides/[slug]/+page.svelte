@@ -12,7 +12,7 @@
     <meta property="og:title" content={ride.description} />
   {/if}
   {#if ride.category}
-    <meta property="og:url" content="https://sakalou.by/{ride.category}" />
+    <meta property="og:url" content="https://sakalou.by/{ride.category}/{ride.slug}" />
     {#if ride.image}
       <meta
         property="og:image"
