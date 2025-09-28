@@ -27,6 +27,12 @@
     prose-h1:text-2xl
     prose-h1:font-medium
     lg:prose-h1:text-4xl
+    prose-h2:mx-auto
+    prose-h2:max-w-3xl
+    prose-h2:font-ibm-plex-serif
+    prose-h2:text-xl
+    prose-h2:font-medium
+    lg:prose-h2:text-2xl
     prose-p:mx-auto
     prose-p:max-w-3xl
     prose-a:text-sky-600

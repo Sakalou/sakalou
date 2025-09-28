@@ -12,10 +12,10 @@ image: jiraskuv-bridge-view.webp
 
 Мечта прокатиться по Европе на велосипеде была у меня очень давно. Осуществить её не получалось из-за множества причин, каждый раз разных. Но наконец всё сложилось: отпуск запланирован, билеты куплены, отели забронированы. Маршрут выбрал от Праги до Берлина на 4 дня езды. Главным критерием было максимальное удаление от Беларуси, но в пределах ночного автобусного переезда, чтобы сократить временные и финансовые затраты на логистику.
 
-* [День первый. Прага - Дечин](/rides/prague-berlin-day-1)
-* [День второй. Дечин - Дрезден](/rides/prague-berlin-day-2)
-* [День третий. Дрезден - Виттенберг](/rides/prague-berlin-day-3)
-* [День четвертый. Виттенберг - Берлин](/rides/prague-berlin-day-4)
+* [День первый. Прага - Дечин](https://sakalou.by/rides/prague-berlin-day-1)
+* [День второй. Дечин - Дрезден](https://sakalou.by/rides/prague-berlin-day-2)
+* [День третий. Дрезден - Виттенберг](https://sakalou.by/rides/prague-berlin-day-3)
+* [День четвертый. Виттенберг - Берлин](https://sakalou.by/rides/prague-berlin-day-4)
 
 <Image file="jiraskuv-bridge-view.webp" alt="Вид на Jiraskuv мост" ratio={[4,3]} latlng={[50.07279194444445,14.410512777777779]} />
 
@@ -71,8 +71,8 @@ image: jiraskuv-bridge-view.webp
 
 <Image file="metro-exit.webp" alt="Выход из метро" ratio={[3,4]} latlng={[50.06180555555555,14.409578055555556]} />
 
-* [День первый. Прага - Дечин](/rides/prague-berlin-day-1)
-* [День второй. Дечин - Дрезден](/rides/prague-berlin-day-2)
-* [День третий. Дрезден - Виттенберг](/rides/prague-berlin-day-3)
-* [День четвертый. Виттенберг - Берлин](/rides/prague-berlin-day-4)
+* [День первый. Прага - Дечин](https://sakalou.by/rides/prague-berlin-day-1)
+* [День второй. Дечин - Дрезден](https://sakalou.by/rides/prague-berlin-day-2)
+* [День третий. Дрезден - Виттенберг](https://sakalou.by/rides/prague-berlin-day-3)
+* [День четвертый. Виттенберг - Берлин](https://sakalou.by/rides/prague-berlin-day-4)
 * [Трек маршрута на карте](https://mapmagic.app/map?routes=0m7P2A9)

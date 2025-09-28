@@ -168,4 +168,4 @@ image: rock-peeking-forest.webp
 
 <Image file="day-two-statistics.webp" alt="Статистика второго дня" ratio={[4,3]} latlng={[51.0487975,13.723725277777778]} title="Итоги второго дня" />
 
-[День третий. Дрезден - Виттенберг →](/rides/prague-berlin-day-3)
+[День третий. Дрезден - Виттенберг →](https://sakalou.by/rides/prague-berlin-day-3)
