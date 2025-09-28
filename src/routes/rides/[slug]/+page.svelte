@@ -2,7 +2,8 @@
   import Article from '$lib/components/content/Article.svelte';
 
   const { data } = $props();
-  const { component, ride } = data;
+  const component = $derived(data.component);
+  const ride = $derived(data.ride);
 </script>
 
 <svelte:head>

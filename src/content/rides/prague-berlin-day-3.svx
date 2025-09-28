@@ -126,4 +126,4 @@ image: flower-meadow.webp
 
 <Image file="day-three-statistics.webp" alt="Статистика третьего дня" ratio={[4,3]} latlng={[51.8663825,12.642466388888888]} title="Итоги третьего дня" />
 
-[День четвертый. Виттенберг - Берлин →](https://sakalou.by/rides/prague-berlin-day-4)
+[День четвертый. Виттенберг - Берлин →](/rides/prague-berlin-day-4)

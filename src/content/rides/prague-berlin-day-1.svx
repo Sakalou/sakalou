@@ -128,4 +128,4 @@ image: sculpture-hand-supporting-building.webp
 
 <Image file="day-one-statistics.webp" alt="Итоги первого дня" ratio={[4,3]} latlng={[50.776294444444446,14.196002777777778]} title="Итоги первого дня" />
 
-[День второй. Дечин - Дрезден →](https://sakalou.by/rides/prague-berlin-day-2)
+[День второй. Дечин - Дрезден →](/rides/prague-berlin-day-2)
