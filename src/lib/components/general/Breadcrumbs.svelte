@@ -9,7 +9,7 @@
   }
 </script>
 
-<ul class="mx-auto flex w-full max-w-3xl gap-3 text-neutral-500">
+<ul class="mx-auto flex w-full max-w-3xl flex-wrap gap-x-3 gap-y-1 text-neutral-500">
   <li class="flex gap-3 not-last:after:content-['›']">
     <a href="/" aria-label="Главная" class="text-black hover:text-neutral-500">
       <svg class="block h-6 w-6 fill-none">
