@@ -6,7 +6,7 @@
   <title>Велоотчеты | Сакалоў</title>
 </svelte:head>
 
-<section class="px-4">
+<section class="mx-auto w-full max-w-3xl">
   <h1
     class="
       mx-auto

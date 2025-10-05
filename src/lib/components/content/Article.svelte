@@ -19,7 +19,6 @@
   class="
     prose-link:cursor-pointer
     prose-base
-    px-4
     lg:prose-lg
     prose-h1:mx-auto
     prose-h1:max-w-3xl

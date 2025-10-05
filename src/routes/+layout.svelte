@@ -1,7 +1,10 @@
 <script lang="ts">
   import '../app.css';
+  import Breadcrumbs from '$lib/components/general/Breadcrumbs.svelte';
+  import { content } from '$lib/store/content.svelte.js';
 
   let { children } = $props();
+  const crumbsVisible = $derived(!!content.crumbs.length);
 </script>
 
 <header class="grid grid-cols-(--grid-cols-layout) justify-center pt-4 pb-2">
@@ -13,7 +16,11 @@
   </a>
 </header>
 
-<main class="py-8">
+<main class="flex flex-col gap-8 px-4 py-8">
+  {#if crumbsVisible}
+    <Breadcrumbs />
+  {/if}
+
   {@render children()}
 </main>
 
