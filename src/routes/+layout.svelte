@@ -8,11 +8,11 @@
 </script>
 
 <header class="grid grid-cols-(--grid-cols-layout) justify-center pt-4 pb-2">
-  <a href="/" class="col-2 flex items-center gap-2 font-argone text-2xl">
+  <a href="/" class="col-2 flex items-center gap-2 font-raleway">
     <svg class="h-12 w-12">
       <use href="/sprite.svg#hat" />
     </svg>
-    <span class="tracking-wider">sakalou</span>
+    <span class="text-xl">Сакалоў</span>
   </a>
 </header>
 

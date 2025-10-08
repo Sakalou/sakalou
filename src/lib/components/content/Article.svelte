@@ -22,15 +22,15 @@
     lg:prose-lg
     prose-h1:mx-auto
     prose-h1:max-w-3xl
-    prose-h1:font-ibm-plex-serif
+    prose-h1:font-raleway
     prose-h1:text-2xl
-    prose-h1:font-medium
+    prose-h1:font-semibold
     lg:prose-h1:text-4xl
     prose-h2:mx-auto
     prose-h2:max-w-3xl
-    prose-h2:font-ibm-plex-serif
+    prose-h2:font-raleway
     prose-h2:text-xl
-    prose-h2:font-medium
+    prose-h2:font-semibold
     lg:prose-h2:text-2xl
     prose-p:mx-auto
     prose-p:max-w-3xl

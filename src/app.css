@@ -1,20 +1,9 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
 
-@font-face {
-  font-family: 'Argone';
-  src:
-    local('Argone'),
-    url('/Argone.woff2') format('woff2'),
-    url('/Argone.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-}
-
 @theme {
   --font-ibm-plex-sans: 'IBM Plex Sans', var(--font-sans);
-  --font-ibm-plex-serif: 'IBM Plex Serif', var(--font-serif);
-  --font-argone: 'Argone', var(--font-sans);
+  --font-raleway: 'Raleway', var(--font-sans);
   --grid-cols-layout: minmax(calc(var(--spacing) * 4), 1fr) minmax(auto, var(--container-3xl))
     minmax(calc(var(--spacing) * 4), 1fr);
 }

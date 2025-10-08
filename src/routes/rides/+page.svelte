@@ -12,9 +12,9 @@
       mx-auto
       mb-5
       max-w-3xl
-      font-ibm-plex-serif
+      font-raleway
       text-2xl
-      font-medium
+      font-semibold
       lg:text-4xl"
   >
     Велоотчеты
@@ -24,7 +24,7 @@
     {#each content.rides as { slug, title, image, category } (slug)}
       {@const src = `https://ik.imagekit.io/sakalou/${category}/${slug}/${image}`}
       <li>
-        <a href="rides/{slug}" class="text-black underline-offset-4 hover:underline">
+        <a href="rides/{slug}" class="text-lg text-black underline-offset-4 hover:underline">
           <img
             class="aspect-4/3 w-full border-b-8 border-b-transparent"
             {src}
