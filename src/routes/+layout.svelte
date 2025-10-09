@@ -8,7 +8,7 @@
 </script>
 
 <header class="grid grid-cols-(--grid-cols-layout) justify-center pt-4 pb-2">
-  <a href="/" class="col-2 flex items-center gap-2 font-raleway">
+  <a href="/" class="col-2 flex items-center gap-2 justify-self-start font-raleway">
     <svg class="h-12 w-12">
       <use href="/sprite.svg#hat" />
     </svg>
@@ -16,7 +16,7 @@
   </a>
 </header>
 
-<main class="flex flex-col gap-8 px-4 py-8">
+<main class="flex grow flex-col gap-8 px-4 py-8">
   {#if crumbsVisible}
     <Breadcrumbs />
   {/if}
