@@ -1,11 +1,18 @@
 <script lang="ts">
   import '../app.css';
   import Breadcrumbs from '$lib/components/general/Breadcrumbs.svelte';
-  import { content } from '$lib/store/content.svelte.js';
+  import { content, crumbNames } from '$lib/store/content.svelte.js';
 
   let { children } = $props();
   const crumbsVisible = $derived(!!content.crumbs.length);
+  const title = $derived(
+    [crumbNames.postName, crumbNames.categoryName].flatMap((name) => (name ? [`${name} | `] : []))
+  );
 </script>
+
+<svelte:head>
+  <title>{title}Сакалоў</title>
+</svelte:head>
 
 <header class="grid grid-cols-(--grid-cols-layout) justify-center pt-4 pb-2">
   <a href="/" class="col-2 flex items-center gap-2 justify-self-start font-raleway">

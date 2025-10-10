@@ -1,25 +1,13 @@
 <script lang="ts">
   import Article from '$lib/components/content/Article.svelte';
-  import { content } from '$lib/store/content.svelte.js';
-  import { onDestroy } from 'svelte';
 
   const { data } = $props();
 
   const component = $derived(data.component);
   const ride = $derived(data.ride);
-
-  $effect(() => {
-    content.crumbs[1] = { name: ride.title, value: ride.slug };
-  });
-
-  onDestroy(() => {
-    content.crumbs.splice(1);
-  });
 </script>
 
 <svelte:head>
-  <title>{ride.title} | Велоотчеты | Сакалоў</title>
-
   {#if ride.description}
     <meta property="og:title" content={ride.description} />
   {/if}

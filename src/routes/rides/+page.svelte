@@ -1,10 +1,7 @@
 <script lang="ts">
+  import { Category } from '$lib/enums/Category';
   import { content } from '$lib/store/content.svelte.js';
 </script>
-
-<svelte:head>
-  <title>Велоотчеты | Сакалоў</title>
-</svelte:head>
 
 <section class="mx-auto w-full">
   <h1
@@ -21,7 +18,7 @@
   </h1>
 
   <ul class="mx-auto grid max-w-3xl gap-8 sm:grid-cols-2">
-    {#each content.rides as { slug, title, image, category } (slug)}
+    {#each content.posts[Category.RIDES] as { slug, title, image, category } (slug)}
       {@const src = `https://ik.imagekit.io/sakalou/${category}/${slug}/${image}`}
       <li>
         <a href="rides/{slug}" class="text-lg text-black underline-offset-4 hover:underline">

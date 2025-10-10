@@ -1,7 +1,3 @@
-<svelte:head>
-  <title>Сакалоў</title>
-</svelte:head>
-
 <section class="px-4">
   <h2
     class="

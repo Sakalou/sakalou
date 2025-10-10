@@ -1,12 +1,17 @@
 <script lang="ts">
+  import { Category } from '$lib/enums/Category';
   import { content } from '$lib/store/content.svelte.js';
 
-  function getUrl(index: number): string {
-    return `/${content.crumbs
-      .slice(0, index + 1)
-      .map(({ value }) => value)
-      .join('/')}`;
-  }
+  const categoryName: string | undefined = $derived(
+    content.crumbs[0] &&
+      {
+        [Category.RIDES]: 'Велоотчеты'
+      }[content.crumbs[0]]
+  );
+  const postName: string | undefined = $derived(
+    content.crumbs[1] &&
+      content.posts[content.crumbs[0]].find(({ slug }) => slug === content.crumbs[1])?.title
+  );
 </script>
 
 <ul class="mx-auto flex w-full max-w-3xl flex-wrap gap-x-3 gap-y-1 text-sm text-neutral-500">
@@ -18,15 +23,21 @@
     </a>
   </li>
 
-  {#each content.crumbs as crumb, index (index)}
+  {#if categoryName}
     <li class="flex gap-3 not-last:after:content-['›']">
-      {#if index === content.crumbs.length - 1}
-        {crumb.name}
-      {:else}
-        <a href={getUrl(index)} class="text-black hover:text-neutral-500">
-          {crumb.name}
+      {#if postName}
+        <a href="/{content.crumbs[0]}" class="text-black hover:text-neutral-500">
+          {categoryName}
         </a>
+      {:else}
+        {categoryName}
       {/if}
     </li>
-  {/each}
+  {/if}
+
+  {#if postName}
+    <li class="flex gap-3 not-last:after:content-['›']">
+      {postName}
+    </li>
+  {/if}
 </ul>
