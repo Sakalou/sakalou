@@ -19,7 +19,7 @@
     <svg class="h-12 w-12">
       <use href="/sprite.svg#hat" />
     </svg>
-    <span class="text-xl">Сакалоў</span>
+    <span class="text-xl font-medium">Сакалоў</span>
   </a>
 </header>
 
