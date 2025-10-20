@@ -15,6 +15,7 @@
 
 <h1
   class="
+      col-2
       mx-auto
       w-full
       max-w-3xl
@@ -26,12 +27,11 @@
   Дневники велосипедиста
 </h1>
 
-<section>
+<section class="col-span-3 col-start-1 grid grid-cols-subgrid">
   <h2
     class="
-      mx-auto
+      col-2
       mb-5
-      max-w-3xl
       font-raleway
       text-xl
       font-semibold
@@ -40,31 +40,33 @@
     <a href="rides" class="underline underline-offset-6 hover:no-underline">Велоотчеты</a>
   </h2>
 
-  <ul class="mx-auto grid max-w-3xl gap-8 sm:grid-cols-2">
-    {#each lastRides as { slug, title, image, category, date } (slug)}
-      {@const src = `https://ik.imagekit.io/sakalou/${category}/${slug}/${image}`}
-      <li class=" ">
-        <a href="rides/{slug}" class="relative block">
-          <img
-            class="block aspect-4/3 w-full border-b-transparent"
-            {src}
-            sizes="(min-width: 600px) 368px, 100vw"
-            srcset="{src}?tr=w-1440,h-1080,f-webp,q-70 1440w, {src}?tr=w-1080,h-768,f-webp,q-70 1080w, {src}?tr=w-736,h-552,f-webp,q-70 736w, {src}?tr=w-368,h-276,f-webp,q-70 368w"
-            alt={title}
-          />
+  <div class="col-span-3 col-start-1 grid grid-cols-subgrid overflow-x-auto">
+    <ul class="col-span-2 col-start-2 mx-auto flex gap-8">
+      {#each lastRides as { slug, title, image, category, date } (slug)}
+        {@const src = `https://ik.imagekit.io/sakalou/${category}/${slug}/${image}`}
+        <li class="w-92 shrink">
+          <a href="rides/{slug}" class="relative block">
+            <img
+              class="block aspect-4/3 w-full border-b-transparent"
+              {src}
+              sizes="(min-width: 600px) 368px, 100vw"
+              srcset="{src}?tr=w-1440,h-1080,f-webp,q-70 1440w, {src}?tr=w-1080,h-810,f-webp,q-70 1080w, {src}?tr=w-736,h-552,f-webp,q-70 736w, {src}?tr=w-368,h-276,f-webp,q-70 368w"
+              alt={title}
+            />
 
-          <span class="absolute bottom-0 left-0 max-w-full p-3 text-lg">
-            <span class="block">
-              <time datetime={date} class="bg-white/90 px-1 py-0.5 text-sm"
-                >{getFormattedDate(date)}</time
+            <span class="absolute bottom-0 left-0 max-w-full p-3 text-lg">
+              <span class="block">
+                <time datetime={date} class="bg-white/90 px-1 py-0.5 text-sm"
+                  >{getFormattedDate(date)}</time
+                >
+              </span>
+              <span class="bg-white/90 box-decoration-clone px-1 py-0.5 font-raleway font-semibold"
+                >{title}</span
               >
             </span>
-            <span class="bg-white/90 box-decoration-clone px-1 py-0.5 font-raleway font-semibold"
-              >{title}</span
-            >
-          </span>
-        </a>
-      </li>
-    {/each}
-  </ul>
+          </a>
+        </li>
+      {/each}
+    </ul>
+  </div>
 </section>

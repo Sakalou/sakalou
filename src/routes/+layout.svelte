@@ -23,7 +23,7 @@
   </a>
 </header>
 
-<main class="flex grow flex-col gap-8 px-4 py-8">
+<main class="grid grow grid-cols-(--grid-cols-layout) content-start gap-y-8 py-8">
   {#if crumbsVisible}
     <Breadcrumbs />
   {/if}

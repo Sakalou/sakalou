@@ -11,7 +11,7 @@
   }
 </script>
 
-<section class="mx-auto w-full">
+<section class="col-span-3 mx-auto w-full grid-cols-subgrid">
   <h1
     class="
       mx-auto
