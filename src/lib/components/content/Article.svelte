@@ -18,7 +18,10 @@
 <article
   class="
     prose-link:cursor-pointer
+    col-span-3
+    col-start-1
     prose-base
+    px-4
     lg:prose-lg
     prose-h1:mx-auto
     prose-h1:max-w-3xl
@@ -49,7 +52,9 @@
 >
   <h1>{title}</h1>
 
-  <time datetime={date} class="mx-auto block max-w-3xl text-base text-black/50">{postDate}</time>
+  <time datetime={date} class="mx-auto my-5 block max-w-3xl text-base text-black/50 sm:my-6"
+    >{postDate}</time
+  >
 
   {@render article()}
 </article>

@@ -41,7 +41,7 @@
   </h2>
 
   <div class="col-span-3 col-start-1 grid grid-cols-subgrid overflow-x-auto">
-    <ul class="col-span-2 col-start-2 mx-auto flex gap-8">
+    <ul class="col-span-2 col-start-2 mx-auto flex gap-8 pr-4">
       {#each lastRides as { slug, title, image, category, date } (slug)}
         {@const src = `https://ik.imagekit.io/sakalou/${category}/${slug}/${image}`}
         <li class="w-92 shrink">

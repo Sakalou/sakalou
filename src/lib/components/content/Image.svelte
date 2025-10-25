@@ -43,13 +43,15 @@
     class="
       not-prose
       max-h-[min(100svh,var(--container-3xl))]
-      max-w-(--container-5xl)
+      max-w-5xl
       object-contain
     "
     data-latlng={latlng}
   />
 
   {#if title}
-    <figcaption class="not-prose text-center text-sm text-black/50">{title}</figcaption>
+    <figcaption class="not-prose max-w-5xl px-4 text-center text-sm text-black/50">
+      {title}
+    </figcaption>
   {/if}
 </figure>

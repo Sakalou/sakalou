@@ -14,9 +14,9 @@
   <title>{title}Сакалоў</title>
 </svelte:head>
 
-<header class="grid grid-cols-(--grid-cols-layout) justify-center pt-4 pb-2">
+<header class="grid grid-cols-(--grid-cols-layout) justify-center pt-4 sm:pt-6">
   <a href="/" class="col-2 flex items-center gap-2 justify-self-start font-raleway">
-    <svg class="h-12 w-12">
+    <svg class="h-8 w-12">
       <use href="/sprite.svg#hat" />
     </svg>
     <span class="text-xl font-medium">Сакалоў</span>
