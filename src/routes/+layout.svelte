@@ -15,12 +15,16 @@
 </svelte:head>
 
 <header class="grid grid-cols-(--grid-cols-layout) justify-center pt-4 sm:pt-6">
-  <a href="/" class="col-2 flex items-center gap-2 justify-self-start font-raleway">
+  <svelte:element
+    this={crumbsVisible ? 'a' : 'div'}
+    href={crumbsVisible ? '/' : undefined}
+    class="col-2 flex items-center gap-2 justify-self-start font-raleway"
+  >
     <svg class="h-8 w-12">
       <use href="/sprite.svg#hat" />
     </svg>
     <span class="text-xl font-medium">Сакалоў</span>
-  </a>
+  </svelte:element>
 </header>
 
 <main class="grid grow grid-cols-(--grid-cols-layout) content-start gap-y-8 py-8">

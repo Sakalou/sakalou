@@ -44,7 +44,9 @@
     <ul class="col-span-2 col-start-2 mx-auto flex gap-8 pr-4">
       {#each lastRides as { slug, title, image, category, date } (slug)}
         {@const src = `https://ik.imagekit.io/sakalou/${category}/${slug}/${image}`}
-        <li class="w-92 shrink">
+        <li
+          class="w-[calc(100vw_-_var(--spacing)*20)] max-w-92 shrink sm:w-[calc(50vw_-_var(--spacing)*14)]"
+        >
           <a href="rides/{slug}" class="relative block">
             <img
               class="block aspect-4/3 w-full border-b-transparent"
