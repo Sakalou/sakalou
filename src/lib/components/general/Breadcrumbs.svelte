@@ -15,10 +15,14 @@
 </script>
 
 <nav class="col-2">
-  <ul class="flex flex-wrap gap-x-3 gap-y-1 text-sm text-neutral-500">
+  <ul class="flex flex-wrap gap-x-3 gap-y-1 text-sm text-neutral-500 dark:text-neutral-400">
     <li class="flex gap-3 not-last:after:content-['›']">
-      <a href="/" aria-label="Главная" class="text-black hover:text-neutral-500">
-        <svg class="block h-5 w-5 fill-none">
+      <a
+        href="/"
+        aria-label="Главная"
+        class="text-black hover:text-neutral-500 dark:text-white dark:hover:text-neutral-400"
+      >
+        <svg class="block h-5 w-5">
           <use href="/sprite.svg#home" />
         </svg>
       </a>
@@ -27,7 +31,10 @@
     {#if categoryName}
       <li class="flex gap-3 not-last:after:content-['›']">
         {#if postName}
-          <a href="/{content.crumbs[0]}" class="text-black hover:text-neutral-500">
+          <a
+            href="/{content.crumbs[0]}"
+            class="text-black hover:text-neutral-500 dark:text-white dark:hover:text-neutral-400"
+          >
             {categoryName}
           </a>
         {:else}

@@ -50,7 +50,9 @@
   />
 
   {#if title}
-    <figcaption class="not-prose max-w-5xl px-4 text-center text-sm text-black/50">
+    <figcaption
+      class="not-prose max-w-5xl px-4 text-center text-sm text-neutral-500 dark:text-neutral-400"
+    >
       {title}
     </figcaption>
   {/if}

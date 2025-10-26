@@ -12,9 +12,19 @@
     />
     <meta name="telegram:channel" content="@sakalounotes" />
     <meta name="og:site_name" content="Сакалоў" />
+    <script>
+      document.documentElement.classList.toggle(
+        'dark',
+        localStorage.theme === 'dark' ||
+          (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
+      );
+    </script>
     %sveltekit.head%
   </head>
-  <body class="flex min-h-full flex-col font-ibm-plex-sans" data-sveltekit-preload-data="off">
+  <body
+    class="flex min-h-full flex-col bg-white font-ibm-plex-sans dark:bg-neutral-900 dark:text-white"
+    data-sveltekit-preload-data="off"
+  >
     <div class="contents">%sveltekit.body%</div>
   </body>
 </html>

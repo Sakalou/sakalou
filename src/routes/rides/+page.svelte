@@ -28,7 +28,7 @@
     {#each content.posts[Category.RIDES] as { slug, title, image, category, date } (slug)}
       {@const src = `https://ik.imagekit.io/sakalou/${category}/${slug}/${image}`}
       <li>
-        <a href="rides/{slug}" class="relative block">
+        <a href="rides/{slug}" class="relative block dark:text-black">
           <img
             class="block aspect-4/3 w-full border-b-transparent"
             {src}

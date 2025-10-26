@@ -42,6 +42,7 @@
     prose-a:underline-offset-4
     prose-a:visited:text-violet-800
     prose-a:hover:no-underline
+    dark:prose-a:visited:text-violet-500
     prose-figure:-mx-4
     prose-ol:mx-auto
     prose-ol:max-w-3xl
@@ -52,7 +53,9 @@
 >
   <h1>{title}</h1>
 
-  <time datetime={date} class="mx-auto my-5 block max-w-3xl text-base text-black/50 sm:my-6"
+  <time
+    datetime={date}
+    class="mx-auto my-5 block max-w-3xl text-base text-neutral-500 sm:my-6 dark:text-neutral-400"
     >{postDate}</time
   >
 

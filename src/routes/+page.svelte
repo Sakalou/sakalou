@@ -47,7 +47,7 @@
         <li
           class="w-[calc(100vw_-_var(--spacing)*20)] max-w-92 shrink sm:w-[calc(50vw_-_var(--spacing)*14)]"
         >
-          <a href="rides/{slug}" class="relative block">
+          <a href="rides/{slug}" class="relative block dark:text-black">
             <img
               class="block aspect-4/3 w-full border-b-transparent"
               {src}
