@@ -44,41 +44,4 @@
       </svg>
     </label>
   {/each}
-
-  <!-- <label
-    for="theme-system"
-    class="flex h-7 w-7 items-center justify-center rounded-full border border-neutral-300 bg-white"
-  >
-    <input
-      name="theme"
-      type="radio"
-      id="theme-system"
-      class="hidden"
-      value="system"
-      bind:group={selected}
-    />
-    <svg class="block h-5 w-5 text-neutral-700">
-      <use href="/sprite.svg#computer-desktop" />
-    </svg>
-  </label>
-
-  <label
-    for="theme-light"
-    class="flex h-7 w-7 cursor-pointer items-center justify-center rounded-full border border-transparent"
-  >
-    <input name="theme" type="radio" id="theme-light" class="hidden" bind:group={selected} />
-    <svg class="block h-5 w-5 text-neutral-700">
-      <use href="/sprite.svg#sun" />
-    </svg>
-  </label>
-
-  <label
-    for="theme-dark"
-    class="flex h-7 w-7 cursor-pointer items-center justify-center rounded-full border border-transparent"
-  >
-    <input name="theme" type="radio" id="theme-dark" class="hidden" bind:group={selected} />
-    <svg class="block h-5 w-5 text-neutral-700">
-      <use href="/sprite.svg#moon" />
-    </svg>
-  </label> -->
 </div>
