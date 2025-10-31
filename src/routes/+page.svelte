@@ -2,7 +2,7 @@
   import { Category } from '$lib/enums/Category';
   import { content } from '$lib/store/content.svelte.js';
 
-  const lastRides = $derived(content.posts[Category.RIDES].slice(0, 4));
+  const lastRides = $derived(content.posts[Category.RIDES].slice(0, 5));
 
   function getFormattedDate(date: string) {
     return Intl.DateTimeFormat('ru-RU', {
