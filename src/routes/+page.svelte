@@ -3,6 +3,7 @@
   import { content } from '$lib/store/content.svelte.js';
 
   const lastRides = $derived(content.posts[Category.RIDES].slice(0, 5));
+  const moreRides: boolean = $derived(content.posts[Category.RIDES].length > lastRides.length);
 
   function getFormattedDate(date: string) {
     return Intl.DateTimeFormat('ru-RU', {
@@ -69,6 +70,19 @@
           </a>
         </li>
       {/each}
+
+      {#if moreRides}
+        <li
+          class="flex w-[calc(100vw_-_var(--spacing)*20)] max-w-92 shrink items-center justify-center text-center sm:w-[calc(50vw_-_var(--spacing)*14)]"
+        >
+          <a
+            href="rides"
+            class="relative text-xl text-sky-600 underline underline-offset-4 hover:no-underline dark:text-sky-300"
+          >
+            <span>Другие отчеты →</span>
+          </a>
+        </li>
+      {/if}
     </ul>
   </div>
 </section>
