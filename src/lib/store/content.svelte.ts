@@ -4,11 +4,13 @@ import type { Ride } from '$lib/models/content/Ride';
 interface ContentStore {
   crumbs: [Category?, string?];
   posts: Record<Category, Ride[]>;
+  mapPoints: [number][];
 }
 
 export const content: ContentStore = $state({
   crumbs: [],
-  posts: { [Category.RIDES]: [] }
+  posts: { [Category.RIDES]: [] },
+  mapPoints: []
 });
 
 class Crumbs {

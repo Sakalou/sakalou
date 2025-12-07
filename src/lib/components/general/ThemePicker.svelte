@@ -6,7 +6,7 @@
     { value: 'light', icon: 'sun' },
     { value: 'dark', icon: 'moon' }
   ];
-  let selected: string = $state('system');
+  let selected: 'system' | 'light' | 'dark' = $state('system');
 
   onMount(() => {
     if (localStorage.theme) {

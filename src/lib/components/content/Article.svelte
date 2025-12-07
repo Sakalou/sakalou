@@ -1,9 +1,12 @@
 <script lang="ts">
+  import { onMount } from 'svelte';
+
   let {
     article,
     title,
     date
   }: {
+    article: any;
     title: string;
     date: string;
   } = $props();
@@ -13,6 +16,14 @@
     month: 'long',
     day: 'numeric'
   }).format(new Date(date));
+
+  onMount(() => {
+    const mapPoints = Array.from(document.querySelectorAll('[data-latlng]')).map(
+      (element) => (element as HTMLElement).dataset.latlng
+    );
+
+    console.log(mapPoints);
+  });
 </script>
 
 <article

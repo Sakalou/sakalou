@@ -9,7 +9,8 @@
       }[content.crumbs[0]]
   );
   const postName: string | undefined = $derived(
-    content.crumbs[1] &&
+    content.crumbs[0] &&
+      content.crumbs[1] &&
       content.posts[content.crumbs[0]].find(({ slug }) => slug === content.crumbs[1])?.title
   );
 </script>

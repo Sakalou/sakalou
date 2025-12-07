@@ -4,6 +4,7 @@
   const { data } = $props();
 
   const component = $derived(data.component);
+  console.log(component);
   const ride = $derived(data.ride);
 </script>
 
