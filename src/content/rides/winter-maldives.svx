@@ -3,6 +3,7 @@ title: Встреча зимы на Мальдивах
 date: 2025-12-06
 description: Отчет о велопоездке из Зельвы в Мосты с заездом на «Белорусские Мальдивы»
 image: quarry-slopes.webp
+gpx: /example.gpx
 ---
 
 <script>

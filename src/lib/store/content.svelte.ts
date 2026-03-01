@@ -10,7 +10,8 @@ interface ContentStore {
 export const content: ContentStore = $state({
   crumbs: [],
   posts: { [Category.RIDES]: [] },
-  mapPoints: []
+  mapPoints: [],
+  rideMapVisible: false
 });
 
 class Crumbs {
@@ -28,3 +29,15 @@ class Crumbs {
 }
 
 export const crumbNames = new Crumbs();
+
+interface RideMap {
+  visible: boolean;
+  track: string | null;
+  sidebarWidth: number;
+}
+
+export const rideMap: RideMap = $state({
+  visible: true,
+  track: null,
+  sidebarWidth: 512
+});

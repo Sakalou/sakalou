@@ -4,11 +4,13 @@
   let {
     article,
     title,
-    date
+    date,
+    mapToggle
   }: {
     article: any;
     title: string;
     date: string;
+    mapToggle: any;
   } = $props();
 
   const postDate: string = new Intl.DateTimeFormat('ru-RU', {
@@ -22,7 +24,7 @@
       (element) => (element as HTMLElement).dataset.latlng
     );
 
-    console.log(mapPoints);
+    // console.log(mapPoints);
   });
 </script>
 
@@ -64,11 +66,11 @@
 >
   <h1>{title}</h1>
 
-  <time
-    datetime={date}
-    class="mx-auto my-5 block max-w-3xl text-base text-neutral-500 sm:my-6 dark:text-neutral-400"
-    >{postDate}</time
-  >
+  <div class="mx-auto my-5 flex max-w-3xl justify-between sm:my-6">
+    <time datetime={date} class="text-base text-neutral-500 dark:text-neutral-400">{postDate}</time>
+
+    {@render mapToggle?.()}
+  </div>
 
   {@render article()}
 </article>

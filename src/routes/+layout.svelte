@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { content, crumbNames } from '$lib/store/content.svelte.js';
+  import { content, crumbNames, rideMap } from '$lib/store/content.svelte.js';
   import '../app.css';
   import Breadcrumbs from '$lib/components/general/Breadcrumbs.svelte';
   import ThemePicker from '$lib/components/general/ThemePicker.svelte';
@@ -67,4 +67,6 @@
   </footer>
 </div>
 
-<SidebarMap />
+{#if rideMap.visible && rideMap.track}
+  <SidebarMap />
+{/if}

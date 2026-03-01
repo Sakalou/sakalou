@@ -15,7 +15,8 @@ content.posts[Category.RIDES] = Object.entries(rides)
     date: metadata?.date || new Date().toISOString(),
     image: metadata?.image,
     description: metadata?.description,
-    category: Category.RIDES
+    category: Category.RIDES,
+    gpx: metadata?.gpx
   }))
   .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 

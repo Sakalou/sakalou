@@ -3,6 +3,7 @@ title: Путешествие к центру Европы
 date: 2025-10-30
 description: Отчет о велопутешествии к центру Европы и посещении трех Белых озер
 image: boat-leaves.webp
+gpx: /example-2.gpx
 ---
 
 <script>

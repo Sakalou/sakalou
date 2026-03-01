@@ -1,11 +1,25 @@
 <script lang="ts">
   import Article from '$lib/components/content/Article.svelte';
+  import type { Ride } from '$lib/models/content/Ride.js';
+  import { rideMap } from '$lib/store/content.svelte.js';
+  import { onDestroy } from 'svelte';
 
   const { data } = $props();
 
   const component = $derived(data.component);
-  console.log(component);
-  const ride = $derived(data.ride);
+  const ride: Ride = $derived(data.ride);
+
+  $effect(() => {
+    if (ride.gpx) {
+      rideMap.track = ride.gpx;
+    } else {
+      rideMap.track = null;
+    }
+  });
+
+  onDestroy(() => {
+    rideMap.track = null;
+  });
 </script>
 
 <svelte:head>
@@ -25,4 +39,23 @@
   <meta property="twitter:card" content="summary_large_image" />
 </svelte:head>
 
-<Article article={component} title={ride.title} date={ride.date} />
+{#snippet mapToggle()}
+  <button
+    class="inline-flex cursor-pointer items-center gap-x-1 text-base text-sky-600"
+    onclick={() => (rideMap.visible = !rideMap.visible)}
+  >
+    <svg class="block h-5 w-5">
+      <use href="/sprite.svg#map" />
+    </svg>
+    <span class="border-b-2 border-dotted">
+      {rideMap.visible ? 'Скрыть карту' : 'Показать карту'}
+    </span>
+  </button>
+{/snippet}
+
+<Article
+  article={component}
+  title={ride.title}
+  date={ride.date}
+  mapToggle={rideMap.track && mapToggle}
+/>
