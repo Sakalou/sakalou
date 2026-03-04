@@ -5,6 +5,7 @@
   const categoryName: string | undefined = $derived(
     content.crumbs[0] &&
       {
+        [Category.BLOG]: 'Блог',
         [Category.RIDES]: 'Велоотчеты'
       }[content.crumbs[0]]
   );
