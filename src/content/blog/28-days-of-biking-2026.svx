@@ -115,7 +115,7 @@ image: minsk-sea-fishermen.webp
 
 С прекрасным настроением после встречи с приятелем поехал пугать чаек на Свислочи.
 
-<Image file="nemiga-sunny.webp" alt="Немига солнечная" ratio={[4,3]} latlng={[53.912372222222224,27.547097222222224]} />
+<Image file="seagulls-over-svisloch.webp" alt="Чайки над Свислочью" ratio={[2048,1535]} latlng={[53.912372222222224,27.547097222222224]} />
 
 ## День 11
 
@@ -125,7 +125,7 @@ image: minsk-sea-fishermen.webp
 
 Для сравнения день вчерашний:
 
-<Image file="seagulls-over-svisloch.webp" alt="Чайки над Свислочью" ratio={[2048,1535]} title="10 февраля" />
+<Image file="nemiga-sunny.webp" alt="Немига солнечная" ratio={[4,3]} title="10 февраля" />
 
 ## День 12
 
