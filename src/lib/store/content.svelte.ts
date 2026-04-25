@@ -9,7 +9,7 @@ interface ContentStore {
 
 export const content: ContentStore = $state({
   crumbs: [],
-  posts: { [Category.RIDES]: [] },
+  posts: { [Category.RIDES]: [], [Category.BLOG]: [] },
   mapPoints: [],
   rideMapVisible: false
 });
@@ -18,6 +18,7 @@ class Crumbs {
   categoryName: string | undefined = $derived(
     content.crumbs[0] &&
       {
+        [Category.BLOG]: 'Блог',
         [Category.RIDES]: 'Велоотчеты'
       }[content.crumbs[0]]
   );
