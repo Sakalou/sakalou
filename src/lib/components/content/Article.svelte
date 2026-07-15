@@ -12,7 +12,7 @@
     year: 'numeric',
     month: 'long',
     day: 'numeric'
-  }).format(new Date(date));
+  }).format(new Date(date ?? '2026-01-01'));
 </script>
 
 <article
