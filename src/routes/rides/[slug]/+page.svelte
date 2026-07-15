@@ -8,10 +8,10 @@
 </script>
 
 <svelte:head>
-  {#if ride.description}
+  {#if ride?.description}
     <meta property="og:title" content={ride.description} />
   {/if}
-  {#if ride.category}
+  {#if ride?.category}
     <meta property="og:url" content="https://sakalou.by/{ride.category}/{ride.slug}" />
     {#if ride.image}
       <meta
@@ -24,4 +24,4 @@
   <meta property="twitter:card" content="summary_large_image" />
 </svelte:head>
 
-<Article article={component} title={ride.title} date={ride.date} />
+<Article article={component} title={ride?.title} date={ride?.date} />
