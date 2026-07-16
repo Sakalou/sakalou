@@ -7,7 +7,9 @@
   let { children } = $props();
   const crumbsVisible = $derived(!!content.crumbs.length);
   const title = $derived(
-    [crumbNames.postName, crumbNames.categoryName].flatMap((name) => (name ? [`${name} | `] : []))
+    [crumbNames.postName, crumbNames.categoryName]
+      .flatMap((name) => (name ? [`${name} | `] : []))
+      .join('')
   );
 </script>
 
