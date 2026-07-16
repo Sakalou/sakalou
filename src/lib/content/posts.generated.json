@@ -1,0 +1,246 @@
+{
+  "rides": [
+    {
+      "slug": "sakartvelo-day-6",
+      "title": "Вело-Сакартвело. Зестафони - Кутаиси. День 6",
+      "date": "2026-06-13",
+      "image": "cable-car-cabins.webp",
+      "description": "6 день велопутешествия по Грузии. Грузинское гостеприимство, которое запомню навсегда, и знакомство с Кутаиси",
+      "category": "rides"
+    },
+    {
+      "slug": "sakartvelo-day-5",
+      "title": "Вело-Сакартвело. Боржоми - Зестафони. День 5",
+      "date": "2026-06-12",
+      "image": "bicycle-monument.webp",
+      "description": "5 день велопутешествия по Грузии. Самый грязный день с тремя проколами",
+      "category": "rides"
+    },
+    {
+      "slug": "sakartvelo-day-4",
+      "title": "Вело-Сакартвело. Тмогви - Боржоми. День 4",
+      "date": "2026-06-11",
+      "image": "primitive-people-mosaic.webp",
+      "description": "4 день велопутешествия по Грузии. Продолжение путешествия вдоль реки Куры через средневековые крепости к городу-курорту Боржоми",
+      "category": "rides"
+    },
+    {
+      "slug": "sakartvelo-day-3",
+      "title": "Вело-Сакартвело. Гандзани - Тмогви. День 3",
+      "date": "2026-06-10",
+      "image": "cyclist-didi-abuli-background.webp",
+      "description": "3 день велопутешествия по Грузии. Подъем к крепости Абули. Пещерный город Вардзия",
+      "category": "rides"
+    },
+    {
+      "slug": "sakartvelo-day-2",
+      "title": "Вело-Сакартвело. Манглиси - Гандзани. День 2",
+      "date": "2026-06-09",
+      "image": "sitting-dashbashi-canyon.webp",
+      "description": "2 день велопутешествия по Грузии. Два затяжных подъема, каньон Дашбаши, триалетские петроглифы. Знакомство с грузинским гостеприимством",
+      "category": "rides"
+    },
+    {
+      "slug": "sakartvelo-day-1",
+      "title": "Вело-Сакартвело. Тбилиси - Манглиси. День 1",
+      "date": "2026-06-08",
+      "image": "bicycle-sculpture.webp",
+      "description": "1 день велопутешествия по Грузии. Краткая обзорная экскурсия по Тбилиси и дорога до Манглиси",
+      "category": "rides"
+    },
+    {
+      "slug": "novogrudok-hills",
+      "title": "Новогрудские холмы",
+      "date": "2026-05-31",
+      "image": "novogrudok-castle.webp",
+      "description": "Поездка из Барановичей в Лиду в поисках гор в Беларуси. Нашел три кладбища и лагерь смерти",
+      "category": "rides"
+    },
+    {
+      "slug": "swamp-sunrise",
+      "title": "Рассвет над болотом",
+      "date": "2026-05-02",
+      "image": "yelnya-islands.webp",
+      "description": "Велопоездка к болоту Ельня, посещение музея Язепа Дроздовича в Германовичах, визит в самый маленький город Беларуси Дисну, катание на пароме через Двину",
+      "category": "rides"
+    },
+    {
+      "slug": "polesye-spring",
+      "title": "Весна на Полесье",
+      "date": "2026-04-10",
+      "image": "polesye-swamp-ford.webp",
+      "description": "Отчет о велопоездке по весеннему Полесью из Василевич в Мозырь через Хойники",
+      "category": "rides"
+    },
+    {
+      "slug": "vici-vici-vici",
+      "title": "«Vici, vici, vici»",
+      "date": "2026-03-14",
+      "image": "icy-forest-road.webp",
+      "description": "Отчет о велопоездке за хлебом через Барановичи, Жировичи и Ивацевичи",
+      "category": "rides"
+    },
+    {
+      "slug": "winter-maldives",
+      "title": "Встреча зимы на Мальдивах",
+      "date": "2025-12-06",
+      "image": "quarry-slopes.webp",
+      "description": "Отчет о велопоездке из Зельвы в Мосты с заездом на «Белорусские Мальдивы»",
+      "category": "rides"
+    },
+    {
+      "slug": "center-of-europe",
+      "title": "Путешествие к центру Европы",
+      "date": "2025-10-30",
+      "image": "boat-leaves.webp",
+      "description": "Отчет о велопутешествии к центру Европы и посещении трех Белых озер",
+      "category": "rides"
+    },
+    {
+      "slug": "shrimp-trip",
+      "title": "Креветочная",
+      "date": "2025-10-19",
+      "image": "shrimp-monument.webp",
+      "description": "Отчет о велопоездке из Антополя в Березу через Белоозерск с целью изучить креветочный вопрос в Беларуси",
+      "category": "rides"
+    },
+    {
+      "slug": "to-augustow-canal",
+      "title": "К Августовскому каналу",
+      "date": "2025-09-13",
+      "image": "nemanovo-lock.webp",
+      "description": "Отчет о велопоездке к Августовскому каналу из Гродно и обратно",
+      "category": "rides"
+    },
+    {
+      "slug": "lake-bike-ride",
+      "title": "Озерная",
+      "date": "2025-08-29",
+      "image": "broken-bridge.webp",
+      "description": "Отчет о велопоездке из Скиделя в Гродно через леса и озера",
+      "category": "rides"
+    },
+    {
+      "slug": "polesye-heat",
+      "title": "Полесский зной",
+      "date": "2025-08-16",
+      "image": "sunrise.webp",
+      "description": "Отчет о велопоездке по Брестскому Полесью",
+      "category": "rides"
+    },
+    {
+      "slug": "11-years-together",
+      "title": "11 лет совместной жизни",
+      "date": "2025-08-09",
+      "image": "tandem-altar-ride.webp",
+      "description": "Отчет о велопоездке в честь одиннадцатилетия совместной жизни по Лидскому и Щучинскому районам",
+      "category": "rides"
+    },
+    {
+      "slug": "to-abandoned-train",
+      "title": "К заброшенному поезду",
+      "date": "2025-07-27",
+      "image": "cycling-railroad-ties.webp",
+      "description": "Отчет о семейной велопоездке к заброшенному бронепоезду",
+      "category": "rides"
+    },
+    {
+      "slug": "prague-berlin-day-4",
+      "title": "Виттенберг - Берлин. Из Праги в Берлин на велосипеде. День 4-й",
+      "date": "2025-06-16",
+      "image": "berlin-two-trains.webp",
+      "description": "Отчет о четвертом дне велопоездки из Праги в Берлин. Виттенберг - Берлин",
+      "category": "rides"
+    },
+    {
+      "slug": "prague-berlin-day-3",
+      "title": "Дрезден - Виттенберг. Из Праги в Берлин на велосипеде. День 3-й",
+      "date": "2025-06-15",
+      "image": "flower-meadow.webp",
+      "description": "Отчет о третьем дне велопоездки из Праги в Берлин. Дрезден - Виттенберг",
+      "category": "rides"
+    },
+    {
+      "slug": "prague-berlin-day-2",
+      "title": "Дечин - Дрезден. Из Праги в Берлин на велосипеде. День 2-й",
+      "date": "2025-06-14",
+      "image": "rock-peeking-forest.webp",
+      "description": "Отчет о втором дне велопоездки из Праги в Берлин. Дечин - Дрезден",
+      "category": "rides"
+    },
+    {
+      "slug": "prague-berlin-day-1",
+      "title": "Прага - Дечин. Из Праги в Берлин на велосипеде. День 1-й",
+      "date": "2025-06-13",
+      "image": "sculpture-hand-supporting-building.webp",
+      "description": "Отчет о первом дне велопоездки из Праги в Берлин. Прага - Дечин",
+      "category": "rides"
+    },
+    {
+      "slug": "prague-berlin",
+      "title": "Из Праги в Берлин на велосипеде",
+      "date": "2025-06-12",
+      "image": "jiraskuv-bridge-view.webp",
+      "description": "Отчет о велопоездке из Праги в Берлин",
+      "category": "rides"
+    },
+    {
+      "slug": "farewell-to-winter",
+      "title": "Прощание с зимой",
+      "date": "2025-02-27",
+      "image": "snowy-forest-road.webp",
+      "description": "Отчет о зимней велопоездке из Жлобина в Быхов через Рогачев",
+      "category": "rides"
+    },
+    {
+      "slug": "tour-of-polesye-day-3",
+      "title": "Давид-Городок - Микашевичи. Турне по Полесью. День 3-й",
+      "date": "2024-07-28",
+      "image": "river-hotel.webp",
+      "description": "Отчет о третьем дне велотурне по Полесью. Давид-Городок - Микашевичи",
+      "category": "rides"
+    },
+    {
+      "slug": "tour-of-polesye-day-2",
+      "title": "Пинск - Давид-Городок. Турне по Полесью. День 2-й",
+      "date": "2024-07-27",
+      "image": "old-polesye-houses.webp",
+      "description": "Отчет о втором дне велотурне по Полесью. Пинск - Давид-Городок",
+      "category": "rides"
+    },
+    {
+      "slug": "tour-of-polesye-day-1",
+      "title": "Дрогичин - Пинск. Турне по Полесью. День 1-й",
+      "date": "2024-07-26",
+      "image": "pinsk-pedestrian-street.webp",
+      "description": "Отчет о первом дне велотурне по Полесью. Дрогичин - Пинск",
+      "category": "rides"
+    },
+    {
+      "slug": "wooden-people",
+      "title": "У госці да Драўлянага народу",
+      "date": "2014-04-30",
+      "image": "nikolai-tarasyuk-photo.webp",
+      "description": "Велопоездка к народному мастеру Беларуси Николаю Тарасюку в его дом-музей Деревянного народа",
+      "category": "rides"
+    },
+    {
+      "slug": "curonian-spit",
+      "title": "Куршская коса",
+      "date": "2012-06-07",
+      "image": "sea-view-embankment.webp",
+      "description": "Отчет о велопоездке по Куршской косе из Клайпеды в Калининград",
+      "category": "rides"
+    }
+  ],
+  "blog": [
+    {
+      "slug": "28-days-of-biking-2026",
+      "title": "28 дней на велосипеде. Февраль 2026-го",
+      "date": "2026-02-28",
+      "image": "minsk-sea-fishermen.webp",
+      "description": "Челлендж 28 дней на велосипеде в 2026 году. Каждый февральский день в седле",
+      "category": "blog"
+    }
+  ]
+}
