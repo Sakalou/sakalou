@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { posts } from '$lib/content/posts';
   import { Category } from '$lib/enums/Category';
   import { content } from '$lib/store/content.svelte.js';
 
@@ -11,7 +12,7 @@
   );
   const postName: string | undefined = $derived(
     content.crumbs[1] &&
-      content.posts[content.crumbs[0]].find(({ slug }) => slug === content.crumbs[1])?.title
+      posts[content.crumbs[0]].find(({ slug }) => slug === content.crumbs[1])?.title
   );
 </script>
 

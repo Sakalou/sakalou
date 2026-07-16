@@ -1,6 +1,6 @@
 <script lang="ts">
+  import { posts } from '$lib/content/posts';
   import { Category } from '$lib/enums/Category';
-  import { content } from '$lib/store/content.svelte.js';
 
   function getFormattedDate(date: string) {
     return Intl.DateTimeFormat('ru-RU', {
@@ -25,7 +25,7 @@
   </h1>
 
   <ul class="col-2 grid gap-8 sm:grid-cols-2">
-    {#each content.posts[Category.BLOG] as { slug, title, image, category, date } (slug)}
+    {#each posts[Category.BLOG] as { slug, title, image, category, date } (slug)}
       {@const src = `https://ik.imagekit.io/sakalou/${category}/${slug}/${image}`}
       <li>
         <a href="blog/{slug}" class="relative block dark:text-black">

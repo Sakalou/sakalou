@@ -1,10 +1,14 @@
+import { posts } from '$lib/content/posts';
 import { Category } from '$lib/enums/Category.js';
-import { content } from '$lib/store/content.svelte.js';
+import { error } from '@sveltejs/kit';
 
-export const load = async ({ params }) => {
+export const load = async ({ params: { slug } }) => {
+  const blogPost = posts[Category.BLOG].find(({ slug }) => slug === slug);
+
+  if (!blogPost) error(404, 'Статья не найдена');
+
   try {
-    const post = await import(`$content/blog/${params.slug}.svx`);
-    const blogPost = content.posts[Category.BLOG].find(({ slug }) => slug === params.slug);
+    const post = await import(`$content/blog/${slug}.svx`);
 
     return {
       component: post.default,

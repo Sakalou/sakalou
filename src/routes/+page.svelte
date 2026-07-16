@@ -1,7 +1,7 @@
 <script lang="ts">
   import PostPreviewsSection from '$lib/components/general/PostPreviewsSection.svelte';
+  import { posts } from '$lib/content/posts';
   import { Category } from '$lib/enums/Category';
-  import { content } from '$lib/store/content.svelte.js';
 </script>
 
 <h1
@@ -18,10 +18,10 @@
   Дневники велосипедиста
 </h1>
 
-{#if content.posts[Category.RIDES].length}
-  <PostPreviewsSection category={Category.RIDES} posts={content.posts[Category.RIDES]} />
+{#if posts[Category.RIDES].length}
+  <PostPreviewsSection category={Category.RIDES} posts={posts[Category.RIDES]} />
 {/if}
 
-{#if content.posts[Category.BLOG].length}
-  <PostPreviewsSection category={Category.BLOG} posts={content.posts[Category.BLOG]} />
+{#if posts[Category.BLOG].length}
+  <PostPreviewsSection category={Category.BLOG} posts={posts[Category.BLOG]} />
 {/if}
