@@ -46,6 +46,7 @@
     prose-figure:-mx-4
     prose-ol:mx-auto
     prose-ol:max-w-3xl
+    prose-ol:list-decimal
     prose-ul:mx-auto
     prose-ul:max-w-3xl
     prose-ul:list-disc
