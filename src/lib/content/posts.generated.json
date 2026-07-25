@@ -1,6 +1,14 @@
 {
   "rides": [
     {
+      "slug": "sakartvelo-day-8",
+      "title": "Вело-Сакартвело. Цагери - Жахундери. День 8",
+      "date": "2026-06-15",
+      "image": "cyclist-descending-mountain-road.webp",
+      "description": "8 день велопутешествия по Грузии. Еду дальше в горы через Нижнюю Сванетию",
+      "category": "rides"
+    },
+    {
       "slug": "sakartvelo-day-7",
       "title": "Вело-Сакартвело. Кутаиси - Цагери. День 7",
       "date": "2026-06-14",
