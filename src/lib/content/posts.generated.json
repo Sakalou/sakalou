@@ -1,6 +1,14 @@
 {
   "rides": [
     {
+      "slug": "sakartvelo-day-12",
+      "title": "Вело-Сакартвело. Зугдиди - Батуми. День 12",
+      "date": "2026-06-19",
+      "image": "batumi-beautiful-houses-promenade.webp",
+      "description": "12 день велопутешествия по Грузии. Заключительный день поездки. Море и Батуми",
+      "category": "rides"
+    },
+    {
       "slug": "sakartvelo-day-11",
       "title": "Вело-Сакартвело. Пари - Зугдиди. День 11",
       "date": "2026-06-18",
