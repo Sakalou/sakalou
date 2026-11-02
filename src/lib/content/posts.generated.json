@@ -1,6 +1,14 @@
 {
   "rides": [
     {
+      "slug": "mokrany-dune",
+      "title": "Мокранская дюна и два вековых дуба",
+      "date": "2026-10-17",
+      "image": "lake-katashi-sunset.webp",
+      "description": "Отчет о поездке на самый юг Беларуси к песчаным дюнам и вековым дубам",
+      "category": "rides"
+    },
+    {
       "slug": "dozhinki-2026",
       "title": "Дожинковская осень в Беларуси",
       "date": "2026-09-19",
