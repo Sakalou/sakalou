@@ -27,10 +27,9 @@
   }
 </script>
 
-<section class="col-span-3 col-start-1 grid grid-cols-subgrid">
+<section>
   <h2
     class="
-      col-2
       mb-5
       font-raleway
       text-xl
@@ -40,13 +39,11 @@
     <a href={category} class="underline underline-offset-6 hover:no-underline">{title}</a>
   </h2>
 
-  <div class="col-span-3 col-start-1 grid grid-cols-subgrid overflow-x-auto">
-    <ul class="col-span-2 col-start-2 mr-auto flex gap-8 pr-4">
-      {#each posts.slice(0, 5) as { slug, title, image, category, date } (slug)}
+  <div class="-mx-4">
+    <ul class="flex overflow-x-auto pl-4">
+      {#each posts.slice(0, 3) as { slug, title, image, category, date } (slug)}
         {@const src = `https://ik.imagekit.io/sakalou/${category}/${slug}/${image}`}
-        <li
-          class="w-[calc(100vw_-_var(--spacing)*20)] max-w-92 shrink sm:w-[calc(50vw_-_var(--spacing)*14)]"
-        >
+        <li class="w-85 shrink-0 pr-4 lg:w-1/3">
           <a href="{category}/{slug}" class="relative block dark:text-black">
             <img
               class="block aspect-4/3 w-full border-b-transparent"
@@ -56,7 +53,7 @@
               alt={title}
             />
 
-            <span class="absolute bottom-0 left-0 max-w-full p-3 text-lg">
+            <span class="absolute bottom-0 left-0 max-w-full p-3 text-base">
               <span class="block">
                 <time datetime={date} class="bg-white/90 px-1 py-0.5 text-sm"
                   >{getFormattedDate(date)}</time
@@ -70,7 +67,7 @@
         </li>
       {/each}
 
-      {#if hasMore}
+      <!-- {#if hasMore}
         <li
           class="flex w-[calc(100vw_-_var(--spacing)*20)] max-w-92 shrink items-center justify-center text-center sm:w-[calc(50vw_-_var(--spacing)*14)]"
         >
@@ -81,7 +78,7 @@
             <span>{moreText} →</span>
           </a>
         </li>
-      {/if}
+      {/if} -->
     </ul>
   </div>
 </section>

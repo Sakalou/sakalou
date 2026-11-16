@@ -11,10 +11,9 @@
   }
 </script>
 
-<section class="col-span-3 col-start-1 grid grid-cols-subgrid">
+<section>
   <h1
     class="
-      col-2
       mb-5
       font-raleway
       text-2xl
@@ -24,7 +23,7 @@
     Велоотчеты
   </h1>
 
-  <ul class="col-2 grid gap-8 sm:grid-cols-2">
+  <ul class="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
     {#each posts[Category.RIDES] as { slug, title, image, category, date } (slug)}
       {@const src = `https://ik.imagekit.io/sakalou/${category}/${slug}/${image}`}
       <li>

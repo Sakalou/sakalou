@@ -24,4 +24,4 @@
   <meta property="twitter:card" content="summary_large_image" />
 </svelte:head>
 
-<Article article={component} title={ride?.title} date={ride?.date} />
+<Article article={component} title={ride?.title} date={ride?.date} track={ride?.track} />

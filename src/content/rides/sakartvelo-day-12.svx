@@ -3,14 +3,13 @@ title: Вело-Сакартвело. Зугдиди - Батуми. День 12
 date: 2026-06-19
 description: 12 день велопутешествия по Грузии. Заключительный день поездки. Море и Батуми
 image: batumi-beautiful-houses-promenade.webp
+track: https://mapmagic.app/map?routes=6Ao35mV
 ---
 
 <script>
   import Image from '$lib/components/content/Image.svelte';
   import Youtube from '$lib/components/content/Youtube.svelte';
 </script>
-
-[Трек маршрута](https://mapmagic.app/map?routes=6Ao35mV)
 
 Изначально планировал закончить свое путешествие именно в Зугдиди, добравшись до Батуми на маршрутке или поезде. Однако к 12-му дню в пути настолько вкатился, что пересаживаться из седла в кресло не видел никакой необходимости.
 

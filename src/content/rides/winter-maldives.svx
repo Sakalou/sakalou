@@ -3,6 +3,7 @@ title: Встреча зимы на Мальдивах
 date: 2025-12-06
 description: Отчет о велопоездке из Зельвы в Мосты с заездом на «Белорусские Мальдивы»
 image: quarry-slopes.webp
+track: https://mapmagic.app/map?routes=9L3DPM6
 ---
 
 <script>
@@ -11,8 +12,6 @@ image: quarry-slopes.webp
 </script>
 
 Короткий световой день в декабре дает возможность взглянуть на некоторые вещи под другим углом. Например, начать велопрогулку не в 6-7 утра с появлением на небе светила, а в 10, выйдя в Зельве из теплого поезда.
-
-[Трек маршрута](https://mapmagic.app/map?routes=9L3DPM6)
 
 <Image file="zelva-station.webp" alt="Вокзал в Зельве" ratio={[4,3]} latlng={[53.16189444444444,24.799033333333334]} />
 
@@ -206,5 +205,3 @@ _По полям, по полям, синий трактор едет к нам
 <Image file="mosty-station.webp" alt="Вокзал в Мостах" ratio={[2048,1535]} latlng={[53.428488888888886,24.5426]} />
 
 <Image file="mosty-station-interior.webp" alt="Внутри вокзала в Мостах" ratio={[4,3]} latlng={[53.42843333333333,24.54251388888889]} />
-
-[Трек маршрута](https://mapmagic.app/map?routes=9L3DPM6)

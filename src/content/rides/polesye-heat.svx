@@ -3,6 +3,7 @@ title: Полесский зной
 date: 2025-08-16
 description: Отчет о велопоездке по Брестскому Полесью
 image: sunrise.webp
+track: https://mapmagic.app/map?routes=9aJx8PV
 ---
 
 <script>
@@ -207,4 +208,3 @@ image: sunrise.webp
 
 <Image file="zhabinka-minsk-train.webp" alt="Поезд из Жабинки в Минск" ratio={[3,4]} latlng={[52.200363055555556,24.01749222222222]} />
 
-[Трек маршрута](https://mapmagic.app/map?routes=9aJx8PV)

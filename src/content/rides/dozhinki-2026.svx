@@ -3,14 +3,13 @@ title: Дожинковская осень в Беларуси
 date: 2026-09-19
 description: Поездка по Брестской и Минской областям в поисках соломенных арт-объектов
 image: straw-tractor.webp
+track: https://mapmagic.app/map?routes=63YbDxV
 ---
 
 <script>
   import Image from '$lib/components/content/Image.svelte';
   import Youtube from '$lib/components/content/Youtube.svelte';
 </script>
-
-[Трек маршрута](https://mapmagic.app/map?routes=63YbDxV)
 
 В конце лета и начале осени, когда полнолуние совпадает с государственными дожинками, из замков, построенных из тюков соломы, вылезают страшилы в поисках мозгов. Иногда среди них, снующих вдоль дорог, можно встретить настоящие арт-объекты: вроде огромного паука или соломенного тираннозавра.
 

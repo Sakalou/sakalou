@@ -7,4 +7,5 @@ export interface Ride {
   image?: string;
   description?: string;
   category: Category;
+  track?: string;
 }

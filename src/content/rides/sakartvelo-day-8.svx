@@ -3,14 +3,13 @@ title: Вело-Сакартвело. Цагери - Жахундери. Ден�
 date: 2026-06-15
 description: 8 день велопутешествия по Грузии. Еду дальше в горы через Нижнюю Сванетию
 image: cyclist-descending-mountain-road.webp
+track: https://mapmagic.app/map?routes=08kYB2V
 ---
 
 <script>
   import Image from '$lib/components/content/Image.svelte';
   import Youtube from '$lib/components/content/Youtube.svelte';
 </script>
-
-[Трек маршрута](https://mapmagic.app/map?routes=08kYB2V)
 
 В Цагери, к сожалению, отель не кормил завтраками. Перекусив остатками вчерашнего ужина, которые я забрал с собой из кафе, спустился к велосипеду. За ночь почему-то снова спустило колесо. Заменив трофейную немецкую камеру на новую, выехал в сторону Лентехи.
 

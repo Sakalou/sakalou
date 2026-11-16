@@ -6,6 +6,4 @@
 @theme {
   --font-ibm-plex-sans: 'IBM Plex Sans', var(--font-sans);
   --font-raleway: 'Raleway', var(--font-sans);
-  --grid-cols-layout: minmax(calc(var(--spacing) * 4), 1fr) minmax(auto, var(--container-3xl))
-    minmax(calc(var(--spacing) * 4), 1fr);
 }

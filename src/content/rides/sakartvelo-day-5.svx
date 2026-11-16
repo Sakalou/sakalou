@@ -3,14 +3,13 @@ title: Вело-Сакартвело. Боржоми - Зестафони. Де�
 date: 2026-06-12
 description: 5 день велопутешествия по Грузии. Самый грязный день с тремя проколами
 image: bicycle-monument.webp
+track: https://mapmagic.app/map?routes=6ZzbRq6
 ---
 
 <script>
   import Image from '$lib/components/content/Image.svelte';
   import Youtube from '$lib/components/content/Youtube.svelte';
 </script>
-
-[Трек маршрута](https://mapmagic.app/map?routes=6ZzbRq6)
 
 Начавшийся вечером дождь, шел всю ночь. К счастью, утром он закончился. Полюбовался горами и крышами из окна своего номера и пошел на завтрак.
 

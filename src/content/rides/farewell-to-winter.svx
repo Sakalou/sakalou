@@ -3,6 +3,7 @@ title: Прощание с зимой
 date: 2025-02-27
 description: Отчет о зимней велопоездке из Жлобина в Быхов через Рогачев
 image: snowy-forest-road.webp
+track: https://mapmagic.app/map?routes=9rzb3E9
 ---
 
 <script>
@@ -104,5 +105,3 @@ image: snowy-forest-road.webp
 <Image file="bicycle-case-train.webp" alt="Велосипед в чехле в поезде" ratio={[3,4]} latlng={[53.51579638888889,30.233455555555558]} title="В дизеле до Жлобина" />
 
 Моя первая полноценная февральская покатушка подошла к концу. Все понравилось, хочу еще
-
-[Трек маршрута](https://mapmagic.app/map?routes=9rzb3E9)

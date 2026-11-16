@@ -3,14 +3,13 @@ title: Вело-Сакартвело. Гандзани - Тмогви. День 
 date: 2026-06-10
 description: 3 день велопутешествия по Грузии. Подъем к крепости Абули. Пещерный город Вардзия
 image: cyclist-didi-abuli-background.webp
+track: https://mapmagic.app/map?routes=64YLav9
 ---
 
 <script>
   import Image from '$lib/components/content/Image.svelte';
   import Youtube from '$lib/components/content/Youtube.svelte';
 </script>
-
-[Трек маршрута](https://mapmagic.app/map?routes=64YLav9)
 
 Завтрак в [«Family Corner»](https://www.google.com/maps/place/Family+corner+Hotel+%26+Restaurant/@41.3437808,43.7417156,14.5z/data=!4m6!3m5!1s0x40424da8bb2fa221:0x7f21f299987f1e27!8m2!3d41.3436826!4d43.7563315!16s%2Fg%2F11ghnv__t6?entry=ttu&g_ep=EgoyMDI2MDYyOS4wIKXMDSoASAFQAw%3D%3D) был назначен на 9 утра. В ожидании его я спустился на первый этаж, чтобы навесить сумки со сложенными вещами на велосипед. В гараже познакомился с главой семейства Самвелом. Он оказался обаятельнейшим дядькой. Сразу сказал, что очень любит белорусов. Но не всех. После уточнения своих антипатий, я понял, что он отлично разбирается в людях.
 

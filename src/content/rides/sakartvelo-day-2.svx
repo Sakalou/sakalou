@@ -3,14 +3,13 @@ title: Вело-Сакартвело. Манглиси - Гандзани. Де�
 date: 2026-06-09
 description: 2 день велопутешествия по Грузии. Два затяжных подъема, каньон Дашбаши, триалетские петроглифы. Знакомство с грузинским гостеприимством
 image: sitting-dashbashi-canyon.webp
+track: https://mapmagic.app/map?routes=9Do1zM6
 ---
 
 <script>
   import Image from '$lib/components/content/Image.svelte';
   import Youtube from '$lib/components/content/Youtube.svelte';
 </script>
-
-[Трек маршрута](https://mapmagic.app/map?routes=9Do1zM6)
 
 Проснулся в шесть утра, проспав 11 часов. На телефоне сообщение от хозяина гестхауса Гии с приглашением на шашлык, отправленное еще вчера вечером.
 

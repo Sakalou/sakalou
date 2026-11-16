@@ -3,6 +3,7 @@ title: 11 лет совместной жизни
 date: 2025-08-09
 description: Отчет о велопоездке в честь одиннадцатилетия совместной жизни по Лидскому и Щучинскому районам
 image: tandem-altar-ride.webp
+track: https://mapmagic.app/map?routes=9x58e3V
 ---
 
 <script>
@@ -186,5 +187,3 @@ image: tandem-altar-ride.webp
 Поездка закончена, приятная усталость с нами. Вечером еще будет торт с детьми. А бонусом к отчету прикладываю фото одиннадцатилетней давности, где мы на тандеме едем венчаться.
 
 <Image file="tandem-altar-ride.webp" alt="На тандеме к алтарю" ratio={[4,3]} />
-
-[Трек маршрута](https://mapmagic.app/map?routes=9x58e3V)

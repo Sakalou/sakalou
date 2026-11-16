@@ -3,14 +3,13 @@ title: Новогрудские холмы
 date: 2026-05-31
 description: Поездка из Барановичей в Лиду в поисках гор в Беларуси. Нашел три кладбища и лагерь смерти
 image: novogrudok-castle.webp
+track: https://mapmagic.app/map?routes=0vmQYYV
 ---
 
 <script>
   import Image from '$lib/components/content/Image.svelte';
   import Youtube from '$lib/components/content/Youtube.svelte';
 </script>
-
-[Трек маршрута](https://mapmagic.app/map?routes=0vmQYYV)
 
 Через неделю вылетаю в Грузию, где мне предстоит первая многодневная поездка с большим набором высоты. Подготовить организм к горам в Беларуси задание нетривиальное. Лучшее, что пришло в голову, — это поехать через холмистый Новогрудок из Барановичей в Лиду.
 
@@ -193,5 +192,3 @@ image: novogrudok-castle.webp
 <Image file="beer-tap-mural.webp" alt="Мурал с пивным краном" ratio={[3,4]} latlng={[53.89646944444444,25.30055]} />
 
 По маршруту получилось 135 км и 7 бонусных по городу. Белорусские горки пройдены, теперь зовут горы Грузии.
-
-[Трек маршрута](https://mapmagic.app/map?routes=0vmQYYV)
