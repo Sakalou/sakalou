@@ -3,6 +3,7 @@ title: У госці да Драўлянага народу
 date: 2014-04-30
 description: Велопоездка к народному мастеру Беларуси Николаю Тарасюку в его дом-музей Деревянного народа
 image: nikolai-tarasyuk-photo.webp
+track: https://mapmagic.app/map?routes=6jxA2qV
 ---
 
 <script>
@@ -150,5 +151,3 @@ image: nikolai-tarasyuk-photo.webp
 Что ж, покатушка мне очень понравилась. Отдельное спасибо моим компаньонам и, конечно, деду-чертополоху из под Пружан.
 
 <Image file="oranchitsy-platform.webp" alt="Платформа в Оранчицах" ratio={[1024,681]} />
-
-[Трек маршрута](https://mapmagic.app/map?routes=6jxA2qV)

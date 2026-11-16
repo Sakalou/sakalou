@@ -3,13 +3,12 @@ title: Мокранская дюна и два вековых дуба
 date: 2026-10-17
 description: Отчет о поездке на самый юг Беларуси к песчаным дюнам и вековым дубам
 image: lake-katashi-sunset.webp
+track: https://mapmagic.app/map?routes=V5deZy9
 ---
 
 <script>
   import Image from '$lib/components/content/Image.svelte';
 </script>
-
-[Трек маршрута](https://mapmagic.app/map?routes=V5deZy9)
 
 На моей персональной карте Брестской области до сегодняшнего утра оставалось одно белое пятно — Малоритский район. Исправлять эту вопиющую несправедливость отправился на ночном поезде до Бреста.
 

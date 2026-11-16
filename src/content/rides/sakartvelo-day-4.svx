@@ -3,14 +3,13 @@ title: Вело-Сакартвело. Тмогви - Боржоми. День 4
 date: 2026-06-11
 description: 4 день велопутешествия по Грузии. Продолжение путешествия вдоль реки Куры через средневековые крепости к городу-курорту Боржоми
 image: primitive-people-mosaic.webp
+track: https://mapmagic.app/map?routes=6EKd7xV
 ---
 
 <script>
   import Image from '$lib/components/content/Image.svelte';
   import Youtube from '$lib/components/content/Youtube.svelte';
 </script>
-
-[Трек маршрута](https://mapmagic.app/map?routes=6EKd7xV)
 
 Всю ночь шел ливень. Отлично спал под его шум и проснулся только один раз, когда он прекратился на некоторое время, а потом снова стал стучать по металлической крыше гестхауса.
 

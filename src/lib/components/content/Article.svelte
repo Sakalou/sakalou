@@ -2,10 +2,12 @@
   let {
     article,
     title,
-    date
+    date,
+    track
   }: {
     title: string;
     date: string;
+    track?: string;
   } = $props();
 
   const postDate: string = new Intl.DateTimeFormat('ru-RU', {
@@ -18,13 +20,10 @@
 <article
   class="
     prose-link:cursor-pointer
-    col-span-3
-    col-start-1
     prose-base
-    px-4
     lg:prose-lg
     prose-h1:mx-auto
-    prose-h1:max-w-3xl
+    prose-h1:max-w-5xl
     prose-h1:font-raleway
     prose-h1:text-2xl
     prose-h1:font-semibold
@@ -44,6 +43,7 @@
     prose-a:hover:no-underline
     dark:prose-a:visited:text-violet-500
     prose-figure:-mx-4
+    md:prose-figure:mx-0
     prose-ol:mx-auto
     prose-ol:max-w-3xl
     prose-ol:list-decimal
@@ -54,11 +54,13 @@
 >
   <h1>{title}</h1>
 
-  <time
-    datetime={date}
-    class="mx-auto my-5 block max-w-3xl text-base text-neutral-500 sm:my-6 dark:text-neutral-400"
-    >{postDate}</time
-  >
+  <div class="my-5 flex gap-4 text-base sm:my-6">
+    <time datetime={date} class="block text-neutral-500 dark:text-neutral-400">{postDate}</time>
+
+    {#if track}
+      <a href={track} class="ml-auto" target="_blank" rel="external">Трек маршрута</a>
+    {/if}
+  </div>
 
   {@render article()}
 </article>

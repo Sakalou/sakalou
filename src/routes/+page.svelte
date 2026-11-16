@@ -6,10 +6,6 @@
 
 <h1
   class="
-      col-2
-      mx-auto
-      w-full
-      max-w-3xl
       font-raleway
       text-2xl
       font-semibold

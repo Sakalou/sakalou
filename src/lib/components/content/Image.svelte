@@ -33,7 +33,7 @@
 </script>
 
 <figure class="flex flex-col items-center gap-2">
-  <img
+  <!-- <img
     loading="lazy"
     {src}
     {srcset}
@@ -44,6 +44,21 @@
       not-prose
       max-h-[min(100svh,var(--container-3xl))]
       max-w-5xl
+      object-contain
+    "
+    data-latlng={latlng}
+  /> -->
+
+  <img
+    loading="lazy"
+    {src}
+    {srcset}
+    {alt}
+    sizes="(min-width: {minWidth}px) {minWidth}px, 100vw"
+    class="
+      not-prose
+      max-h-3xl
+      max-w-full
       object-contain
     "
     data-latlng={latlng}

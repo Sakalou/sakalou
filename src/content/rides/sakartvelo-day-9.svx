@@ -3,13 +3,12 @@ title: Вело-Сакартвело. Жахундери - Ушгули. Ден�
 date: 2026-06-16
 description: 9 день велопутешествия по Грузии. Перевал Загаро. Высокогорное селение Ушгули и ледник Шхара
 image: bench-mountain-background.webp
+track: https://mapmagic.app/map?routes=Vdqxlb0
 ---
 
 <script>
   import Image from '$lib/components/content/Image.svelte';
 </script>
-
-[Трек маршрута](https://mapmagic.app/map?routes=Vdqxlb0)
 
 Сегодня предстоял интереснейший день: почти 2000 метров подъема к перевалу Загаро и высокогорная деревня Ушгули с ее знаменитыми сванскими башнями. Но обо все по порядку. День же начался с традиционного грузинского завтрака.
 

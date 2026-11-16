@@ -3,14 +3,13 @@ title: Вело-Сакартвело. Ушгули - Пари. День 10
 date: 2026-06-17
 description: 10 день велопутешествия по Грузии. По Верхней Сванетии от Ушгули через Местию в Пари
 image: svan-towers-road-view.webp
+track: https://mapmagic.app/map?routes=0voEXY6
 ---
 
 <script>
   import Image from '$lib/components/content/Image.svelte';
   import Youtube from '$lib/components/content/Youtube.svelte';
 </script>
-
-[Трек маршрута](https://mapmagic.app/map?routes=0voEXY6)
 
 Путешествуя по Грузии, можно встретить множество интересных людей. Страна не расположена к пакетному туризму и будет ошибкой ожидать, что вас тут будут развлекать и носить на руках только за то, что вы сюда добрались. Это обстоятельство притягивает сюда многих, кому не чужд авантюризм, тех, кто сам может придумать, чем ему заняться с утра.
 

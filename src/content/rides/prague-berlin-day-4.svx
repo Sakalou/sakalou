@@ -3,6 +3,7 @@ title: Виттенберг - Берлин. Из Праги в Берлин на
 date: 2025-06-16
 description: Отчет о четвертом дне велопоездки из Праги в Берлин. Виттенберг - Берлин
 image: berlin-two-trains.webp
+track: https://mapmagic.app/map?routes=0m7P2A9
 ---
 
 <script>
@@ -148,4 +149,3 @@ image: berlin-two-trains.webp
 
 Путешествие окончено. Уже мечтаю повторить.
 
-[Трек маршрута](https://mapmagic.app/map?routes=0m7P2A9)

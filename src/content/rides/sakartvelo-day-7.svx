@@ -3,14 +3,13 @@ title: Вело-Сакартвело. Кутаиси - Цагери. День 7
 date: 2026-06-14
 description: 7 день велопутешествия по Грузии. Живописная дорога по ущелью реки Риони. Подъем к крепости Мурисцихе
 image: kutaisi-houses-river.webp
+track: https://mapmagic.app/map?routes=0Ob4ERV
 ---
 
 <script>
   import Image from '$lib/components/content/Image.svelte';
   import Youtube from '$lib/components/content/Youtube.svelte';
 </script>
-
-[Трек маршрута](https://mapmagic.app/map?routes=0Ob4ERV)
 
 За утренним кофе решил, что неплохо бы закупиться камерами с запасом. После двух дней ремонтов и предстоящих впереди малонаселенных гор хотелось подстраховаться.
 

@@ -3,13 +3,12 @@ title: «Vici, vici, vici»
 date: 2026-03-14
 description: Отчет о велопоездке за хлебом через Барановичи, Жировичи и Ивацевичи
 image: icy-forest-road.webp
+track: https://mapmagic.app/map?routes=9N44kL0
 ---
 
 <script>
   import Image from '$lib/components/content/Image.svelte';
 </script>
-
-[Трек маршрута](https://mapmagic.app/map?routes=9N44kL0)
 
 Снежная и морозная зима наконец отступила. Март радует солнцем и пением птиц, а в голове звучат слова классиков украинского хип-хопа: Между нами тает лёд, пусть теперь нас никто не найдет…
 
@@ -170,5 +169,3 @@ image: icy-forest-road.webp
 <Image file="ivacevichi-station-view.webp" alt="Вид с вокзала в Ивацевичах" ratio={[4,3]} latlng={[52.70928055555556,25.345130555555553]} />
 
 «Вичи, вичи, вичи» переводится как «победил, победил, победил». Пусть моими победами в этот день будут: лед гравейки, встречный ветер и 130 км дистанции.
-
-[Трек маршрута](https://mapmagic.app/map?routes=9N44kL0)

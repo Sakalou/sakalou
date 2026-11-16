@@ -26,6 +26,7 @@ function buildCategory(dir, category) {
         date: data.date || new Date().toISOString(),
         image: data.image,
         description: data.description,
+        track: data.track,
         category
       };
     })

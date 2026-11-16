@@ -3,6 +3,7 @@ title: Креветочная
 date: 2025-10-19
 description: Отчет о велопоездке из Антополя в Березу через Белоозерск с целью изучить креветочный вопрос в Беларуси
 image: shrimp-monument.webp
+track: https://mapmagic.app/map?routes=VQBpKJ0
 ---
 
 <script>
@@ -217,5 +218,3 @@ image: shrimp-monument.webp
 <Image file="monastery-grounds-trees.webp" alt="Деревья на территории монастыря" ratio={[4,3]} latlng={[52.53281,24.958970833333332]} />
 
 После монастыря прямой наводкой поехал на вокзал, где взял литр кефира и в теплом вагоне добрался до дома. Покатушкой доволен, вопрос по белорусской креветке закрыт.
-
-[Трек маршрута](https://mapmagic.app/map?routes=VQBpKJ0)
