@@ -55,6 +55,7 @@
     {srcset}
     {alt}
     sizes="(min-width: {minWidth}px) {minWidth}px, 100vw"
+    style="aspect-ratio: {ratio[0]}/{ratio[1]}"
     class="
       not-prose
       max-h-3xl
