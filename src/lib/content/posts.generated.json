@@ -1,6 +1,15 @@
 {
   "rides": [
     {
+      "slug": "along-berezina",
+      "title": "Из Бобруйска в Светлогорск вдоль Березины",
+      "date": "2026-11-14",
+      "image": "belarus-on-mosaic.webp",
+      "description": "Отчет о ноябрьской поездке вдоль Березины с посещением Бобруйской крепости, Паричей, мемеориала Ола и Светлогорска",
+      "track": "https://mapmagic.app/map?routes=9DvOqB0",
+      "category": "rides"
+    },
+    {
       "slug": "mokrany-dune",
       "title": "Мокранская дюна и два вековых дуба",
       "date": "2026-10-17",
